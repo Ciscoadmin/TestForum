@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[We are  starting <br>]]>
+    </line>
+    <line>
+      <![CDATA[ Testing  Add Topic Point  <br>]]>
+    </line>
+    <line>
+      <![CDATA[ Testing  Add Topic Form  <br> ]]>
+    </line>
+    <line>
+      <![CDATA[ View Topic Form  <br> ]]>
+    </line>
+    <line>
+      <![CDATA[ Add Post link  <br> ]]>
+    </line>
+    <line>
+      <![CDATA[ Add Post Form  <br> ]]>
+    </line>
+  </reporter-output>
+  <suite name="Simple Forum autoTests - admin E2E" duration-ms="26152" started-at="2015-02-13T14:02:41Z" finished-at="2015-02-13T14:03:08Z">
+    <groups>
+      <group name="All">
+        <method signature="FirstTest.loginAsAdmin()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="loginAsAdmin" class="com.lohika.atf.test.FirstTest"/>
+        <method signature="FirstTest.addTopicButton()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="addTopicButton" class="com.lohika.atf.test.FirstTest"/>
+        <method signature="FirstTest.performAddTopic()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="performAddTopic" class="com.lohika.atf.test.FirstTest"/>
+        <method signature="FirstTest.viewTopic()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="viewTopic" class="com.lohika.atf.test.FirstTest"/>
+        <method signature="FirstTest.addPostButton()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="addPostButton" class="com.lohika.atf.test.FirstTest"/>
+        <method signature="FirstTest.addPost()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="addPost" class="com.lohika.atf.test.FirstTest"/>
+      </group> <!-- All -->
+      <group name="smoke">
+        <method signature="FirstTest.loginAsAdmin()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="loginAsAdmin" class="com.lohika.atf.test.FirstTest"/>
+      </group> <!-- smoke -->
+      <group name="E2E">
+        <method signature="FirstTest.loginAsAdmin()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="loginAsAdmin" class="com.lohika.atf.test.FirstTest"/>
+        <method signature="FirstTest.addTopicButton()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="addTopicButton" class="com.lohika.atf.test.FirstTest"/>
+        <method signature="FirstTest.performAddTopic()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="performAddTopic" class="com.lohika.atf.test.FirstTest"/>
+        <method signature="FirstTest.viewTopic()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="viewTopic" class="com.lohika.atf.test.FirstTest"/>
+        <method signature="FirstTest.addPostButton()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="addPostButton" class="com.lohika.atf.test.FirstTest"/>
+        <method signature="FirstTest.addPost()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="addPost" class="com.lohika.atf.test.FirstTest"/>
+      </group> <!-- E2E -->
+    </groups>
+    <test name="Some Test Name" duration-ms="26152" started-at="2015-02-13T14:02:41Z" finished-at="2015-02-13T14:03:08Z">
+      <class name="com.lohika.atf.test.FirstTest">
+        <test-method status="PASS" signature="setUP(java.lang.String)[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="setUP" is-config="true" duration-ms="2767" started-at="2015-02-13T16:02:39Z" finished-at="2015-02-13T16:02:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="loginAsAdmin()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="loginAsAdmin" duration-ms="5190" started-at="2015-02-13T16:02:41Z" finished-at="2015-02-13T16:02:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[We are  starting <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsAdmin -->
+        <test-method status="PASS" signature="addTopicButton()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="addTopicButton" duration-ms="3161" started-at="2015-02-13T16:02:47Z" depends-on-methods="com.lohika.atf.test.FirstTest.loginAsAdmin" finished-at="2015-02-13T16:02:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ Testing  Add Topic Point  <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addTopicButton -->
+        <test-method status="PASS" signature="performAddTopic()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="performAddTopic" duration-ms="4259" started-at="2015-02-13T16:02:50Z" depends-on-methods="com.lohika.atf.test.FirstTest.addTopicButton" finished-at="2015-02-13T16:02:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ Testing  Add Topic Form  <br> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- performAddTopic -->
+        <test-method status="PASS" signature="viewTopic()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="viewTopic" duration-ms="3053" started-at="2015-02-13T16:02:54Z" depends-on-methods="com.lohika.atf.test.FirstTest.performAddTopic" finished-at="2015-02-13T16:02:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ View Topic Form  <br> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- viewTopic -->
+        <test-method status="PASS" signature="addPostButton()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="addPostButton" duration-ms="5063" started-at="2015-02-13T16:02:57Z" depends-on-methods="com.lohika.atf.test.FirstTest.viewTopic" finished-at="2015-02-13T16:03:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ Add Post link  <br> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addPostButton -->
+        <test-method status="PASS" signature="addPost()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="addPost" duration-ms="5419" started-at="2015-02-13T16:03:02Z" depends-on-methods="com.lohika.atf.test.FirstTest.addPostButton" finished-at="2015-02-13T16:03:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ Add Post Form  <br> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addPost -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.lohika.atf.test.FirstTest@130cda4]" name="tearDown" is-config="true" duration-ms="112" started-at="2015-02-13T16:03:08Z" finished-at="2015-02-13T16:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lohika.atf.test.FirstTest -->
+    </test> <!-- Some Test Name -->
+  </suite> <!-- Simple Forum autoTests - admin E2E -->
+</testng-results>

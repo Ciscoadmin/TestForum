@@ -1,0 +1,9 @@
+com\lohika\atf\lb\Forum.class
+com\lohika\atf\lb\Model\Post.class
+com\lohika\atf\lb\Model\UsersDB.class
+com\lohika\atf\lb\Model\Topic.class
+com\lohika\atf\lb\Model\Person.class
+com\lohika\atf\lb\Model\TopicPostDB.class
+com\lohika\atf\lb\config\WebMvcConfig.class
+com\lohika\atf\lb\CommonMethods.class
+com\lohika\atf\lb\controller\controller.class

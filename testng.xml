@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Simple Forum autoTests - admin E2E"  verbose="10">
+    <test name="Some Test Name">
+        <groups>
+            <run>
+                <exclude name="n3" />
+                <include name="E2E" />
+            </run>
+        </groups>
+        <classes>
+               <class name="com.lohika.atf.test.coreTest" />
+               <class name="com.lohika.atf.test.FirstTest" />
+        </classes>
+    </test>
+</suite>
